@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-ask-coordinatore"
+description = "Allow the window to ask the Coordinatore"
+commands.allow = ["ask_coordinatore", "answer_user", "save_workspace_files", "reset_context", "load_ui_session", "save_ui_session", "get_workspace", "set_workspace", "cli_ack", "cli_load_file"]

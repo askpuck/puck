@@ -1,0 +1,22 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:window:allow-start-dragging",
+    "opener:default",
+    "dialog:default",
+    "allow-ask-coordinatore",
+    "deep-link:default",
+    "allow-cloud-status",
+    "allow-cloud-connect",
+    "allow-cloud-auth-callback",
+    "allow-cloud-signout",
+    "allow-cloud-refresh"
+  ]
+}

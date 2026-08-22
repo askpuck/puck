@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+.puck-review/
+.nyni-review/
+sandbox/*
+!sandbox/.gitkeep
+context/*
+!context/.gitkeep
+library/
+
+# Canale di test da terminale (cli.rs), effimero
+/cli-order.txt
+/cli-order.out.json
+
+
+# Editor directories and files
+.vscode/
+.cursor/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backup del filo precedente (prove, non commitare)
+context.bak-*/
+
+
+# File "nostri" che restano solo in locale (non vanno nel repo pubblico):
+# doc, tooling di test, sorgente del sito askpuck.app.
+CONSTITUTION.md
+SITE.md
+cloud-setup.md
+cloud-flow-test.md
+scripts/
+site/
+worker.js
+wrangler.jsonc

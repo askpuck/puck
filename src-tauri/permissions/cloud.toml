@@ -1,0 +1,24 @@
+[[permission]]
+identifier = "allow-cloud-status"
+description = "Allow the window to read the Puck Cloud status"
+commands.allow = ["cloud_status"]
+
+[[permission]]
+identifier = "allow-cloud-connect"
+description = "Allow the window to start the Puck Cloud login (magic link)"
+commands.allow = ["cloud_connect"]
+
+[[permission]]
+identifier = "allow-cloud-auth-callback"
+description = "Allow the window to complete the Puck Cloud login (PKCE)"
+commands.allow = ["cloud_auth_callback"]
+
+[[permission]]
+identifier = "allow-cloud-signout"
+description = "Allow the window to sign out of Puck Cloud"
+commands.allow = ["cloud_signout"]
+
+[[permission]]
+identifier = "allow-cloud-refresh"
+description = "Allow the window to retry the workspace alignment"
+commands.allow = ["cloud_refresh"]
